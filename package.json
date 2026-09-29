@@ -1,0 +1,15 @@
+{
+  "name": "sed502-esa1-china-timeline",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^8.0.0"
+  }
+}
