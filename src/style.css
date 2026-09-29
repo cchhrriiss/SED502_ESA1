@@ -64,6 +64,28 @@ main aside {
   margin-bottom: 2rem;
 }
 
+.timeline {
+  display: grid;
+  gap: 1rem;
+  padding-left: 1.5rem;
+}
+
+.timeline article {
+  padding: 1rem;
+  border: 1px solid #c8c1b5;
+  background: #fff;
+}
+
+.timeline h3,
+.period {
+  margin: 0;
+}
+
+.period {
+  font-weight: 700;
+  color: #7a291d;
+}
+
 main aside {
   padding: 0.25rem 1rem;
   border-left: 4px solid #8c3526;
