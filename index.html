@@ -3,13 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eine Zeitleiste mit ausgewählten Stationen der Geschichte Chinas."
+    />
     <title>Chinas Geschichte im Überblick</title>
     <script type="module" src="/src/main.ts"></script>
   </head>
   <body>
-    <main>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
+    <header class="site-header" id="seitenanfang">
+      <p class="kicker">SED502 - ESA 1</p>
       <h1>Chinas Geschichte im Überblick</h1>
-      <p>Hier entsteht eine Zeitleiste mit ausgewählten Stationen.</p>
+      <p>Ausgewählte Stationen von den frühen Dynastien bis zum modernen China.</p>
+
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#einfuehrung">Einführung</a></li>
+          <li><a href="#zeitleiste">Zeitleiste</a></li>
+          <li><a href="#quellen">Quellen</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="inhalt">
+      <section id="einfuehrung" aria-labelledby="einfuehrung-titel">
+        <h2 id="einfuehrung-titel">Einführung</h2>
+        <p>
+          Diese Webseite stellt eine begrenzte Auswahl historischer Stationen
+          vor.
+        </p>
+      </section>
+
+      <section id="zeitleiste" aria-labelledby="zeitleiste-titel">
+        <h2 id="zeitleiste-titel">Zeitleiste</h2>
+        <p>Die Stationen und der Epochenfilter werden als Nächstes ergänzt.</p>
+      </section>
+
+      <aside aria-labelledby="hinweis-titel">
+        <h2 id="hinweis-titel">Hinweis zur Auswahl</h2>
+        <p>
+          Die Zeitleiste ist eine eigene Auswahl an historischen Stationen.
+        </p>
+      </aside>
+
+      <section id="quellen" aria-labelledby="quellen-titel">
+        <h2 id="quellen-titel">Quellen</h2>
+        <ul>
+          <li>
+            <a href="https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/korea.pdf">
+              Metropolitan Museum of Art: Dynastische Chronologie
+            </a>
+          </li>
+          <li>
+            <a href="https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/interactives/timelines/timeline-of-chinese-history-art-and-culture/">
+              Smithsonian: Zeitleiste der chinesischen Geschichte
+            </a>
+          </li>
+          <li>
+            <a href="https://blogs.worldbank.org/en/eastasiapacific/reflections-on-forty-years-of-china-reforms">
+              Weltbank: Reformen ab 1978
+            </a>
+          </li>
+        </ul>
+      </section>
     </main>
+
+    <footer>
+      <p>SED502 - Einsendeaufgabe 1</p>
+      <a href="#seitenanfang">Zum Seitenanfang</a>
+    </footer>
   </body>
 </html>
