@@ -39,8 +39,16 @@
 
       <section id="zeitleiste" aria-labelledby="zeitleiste-titel">
         <h2 id="zeitleiste-titel">Zeitleiste</h2>
+        <label for="epoche">Epoche auswählen:</label>
+        <select id="epoche" name="epoche">
+          <option value="alle">Alle Stationen</option>
+          <option value="frueh">Frühe Dynastien</option>
+          <option value="kaiserzeit">Kaiserzeit</option>
+          <option value="moderne">Ab 1912</option>
+        </select>
+        <p id="filter-ergebnis" role="status">12 von 12 Stationen werden angezeigt.</p>
         <ol class="timeline">
-          <li>
+          <li data-epoche="frueh">
             <article>
               <p class="period">ca. 1600–1050 v. Chr.</p>
               <h3>Shang-Dynastie</h3>
@@ -52,7 +60,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="frueh">
             <article>
               <p class="period">ca. 1046–256 v. Chr.</p>
               <h3>Zhou-Dynastie</h3>
@@ -64,7 +72,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">221 v. Chr.</p>
               <h3>Reichseinigung unter Qin</h3>
@@ -76,7 +84,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">206 v. Chr.–220 n. Chr.</p>
               <h3>Han-Dynastie</h3>
@@ -87,7 +95,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">618–907</p>
               <h3>Tang-Dynastie</h3>
@@ -98,7 +106,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">960–1279</p>
               <h3>Song-Dynastie</h3>
@@ -109,7 +117,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">1271–1368</p>
               <h3>Yuan-Dynastie</h3>
@@ -121,7 +129,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">1368–1644</p>
               <h3>Ming-Dynastie</h3>
@@ -132,7 +140,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="kaiserzeit">
             <article>
               <p class="period">1644–1911</p>
               <h3>Qing-Dynastie</h3>
@@ -143,7 +151,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="moderne">
             <article>
               <p class="period">1912</p>
               <h3>Gründung der Republik China</h3>
@@ -154,7 +162,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="moderne">
             <article>
               <p class="period">1949</p>
               <h3>Gründung der Volksrepublik China</h3>
@@ -165,7 +173,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li data-epoche="moderne">
             <article>
               <p class="period">ab 1978</p>
               <h3>Reform und Öffnung</h3>

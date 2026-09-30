@@ -64,6 +64,15 @@ main aside {
   margin-bottom: 2rem;
 }
 
+select {
+  font: inherit;
+  padding: 0.35rem;
+}
+
+.timeline > li.ausgeblendet {
+  display: none;
+}
+
 .timeline {
   display: grid;
   gap: 1rem;
