@@ -1,5 +1,6 @@
-# Chinas Geschichte im Überblick
+# Webseite - Chinas Geschichte im Überblick
 
+## Thema und Motivation
 Diese Webseite zeigt zwölf ausgewählte Abschnitte der chinesischen Geschichte. Von den frühen Dynastien bis zur Reformpolitik ab 1978. Über ein Auswahlfeld lassen sich die Stationen nach drei Epochen filtern. Die historischen Quellen stehen gesammelt am Ende der Webseite.
 
 ## Lokal starten
@@ -17,3 +18,7 @@ npm run dev
 - Die zwölf Geschichtsabschnitte stehen in einer geordneten Liste. Das Auswahlfeld filtert sie mit TypeScript anhand des Attributs `data-epoche`.
 - Der Filter nutzt ein Interface, typisierte Funktionen und die Array-Methode `filter()`. Eine Statusmeldung nennt die Zahl der sichtbaren Stationen.
 - Beim Styling wurde nur einfaches CSS verwendet, da dies für die Anforderung ausreichend ist. Um die Seite schöner zu gestalten, könnte man ein CSS-Framework verwenden.
+
+## Verwendung von KI-Tools
+
+Die Verwendung von KI-Tools ist, wie in der ESA Angabe gefordert, in der Datei reflexion.pdf beschrieben.
